@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+body {
+  background-image: url(../img/safari-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 10px black;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(241, 227, 100, 0.699);
+  padding: 8px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.intro-border {
+  background-color: rgba(197, 196, 193, 0.712);
+  padding: 50px;
+  border-radius: 15px;
+}
+.intro {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.gallery-cont {
+  padding: 30px;
+  background-color:rgb(212, 201, 165);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+/* .li {
+  box-shadow: 5px 10px;
+  color: blue;
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color:rgba(241, 227, 100, 0.699);
+  padding: 5px;
+}
